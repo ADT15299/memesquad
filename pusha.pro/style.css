@@ -1,0 +1,45 @@
+body {
+    background: url(gif.html);
+    margin: 0;
+    padding: 0;
+    padding-top: 0px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: Lucida Console, Courier, Monotype;
+    font-size: 10pt;
+    color: #ffffff;
+    text-shadow: 1px 1px black;
+    text-align: center;
+}
+video#bgvid {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    -webkit-filter: grayscale(1) brightness(0.7) contrast(1.05);
+    filter: grayscale(0) brightness(0.8) contrast(1.05);
+	-webkit-filter: blur(15px);
+    -moz-filter: blur(15px);
+    -o-filter: blur(15px);
+    -ms-filter: blur(15px);
+    filter: blur(15px);
+}
+
+h1 {
+    font-size: 40px;
+}
+
+a {
+    color: #660000;
+    text-decoration: none;
+}
